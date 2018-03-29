@@ -2,9 +2,11 @@
   "name": "react-color-class",
   "version": "0.0.3",
   "description": "some common color classes",
-  "main": "index.js",
+  "main": "./lib/react-color-class.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "./node_modules/.bin/rimraf lib",
+    "build": "./node_modules/.bin/babel src --copy-files --source-maps --extensions .es6,.es,.jsx --out-dir lib"
   },
   "keywords": [
     "react",
@@ -12,5 +14,12 @@
     "class"
   ],
   "author": "gim",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
 }

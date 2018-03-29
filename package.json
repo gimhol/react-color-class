@@ -1,0 +1,16 @@
+{
+  "name": "react-color-class",
+  "version": "0.0.2",
+  "description": "some common color classes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "color",
+    "class"
+  ],
+  "author": "gim",
+  "license": "MIT"
+}

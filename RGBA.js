@@ -30,7 +30,9 @@ export default class RGBA extends RGB{
   toString(){
     return 'rgba('+this.r+','+this.g+','+this.b+','+this.a+')';
   }
-
+  toRGB(){
+    return new RGBA(this.r,this.g,this.b);
+  }
   toHex(){
     return super.toHex() + num_to_hex(this.a);
   }

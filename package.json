@@ -1,12 +1,12 @@
 {
   "name": "react-color-class",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "some common color classes",
   "main": "./lib/react-color-class.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "./node_modules/.bin/rimraf lib",
-    "build": "./node_modules/.bin/babel src --copy-files --source-maps --extensions .es6,.es,.jsx --out-dir lib"
+    "build": "./node_modules/.bin/babel src --copy-files --source-maps --extensions .js --out-dir lib"
   },
   "keywords": [
     "react",

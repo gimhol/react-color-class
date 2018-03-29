@@ -3,3 +3,4 @@
 /src
 .babelrc
 .gitnore
+/lib/*.js.map

@@ -1,6 +1,6 @@
 {
   "name": "react-color-class",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "some common color classes",
   "main": "./lib/react-color-class.js",
   "scripts": {

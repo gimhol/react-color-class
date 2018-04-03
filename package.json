@@ -1,10 +1,10 @@
 {
   "name": "react-color-class",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "some common color classes",
   "main": "./lib/react-color-class.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node test/test.js",
     "clean": "./node_modules/.bin/rimraf lib",
     "build": "./node_modules/.bin/babel src --copy-files --source-maps --extensions .js --out-dir lib"
   },

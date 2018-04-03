@@ -1,6 +1,35 @@
 # react-color-class
 一系列颜色类型，能方便的对颜色进行处理、以及互相转换。目前RGB、RGBA、HSV。
 
+# 安装使用
+安装
+```
+npm install react-color-class --save
+```
+使用
+```js
+import { RGB, RGBA, HSV } from 'react-color-class';
+new RGB(255,255,255);
+new RGBA(255,255,255,255);
+new HSV(1,0,0);
+// 更多的，看下面详情
+```
+
+## 构建、测试
+构建
+```
+npm install
+```
+```
+npm run build
+```
+测试（构建后）
+```
+npm test
+```
+
+# 详情
+
 ## HSV
 HSV(HSB)颜色类。
 [什么是HSB](https://baike.baidu.com/item/hsb/10338413)
@@ -140,7 +169,6 @@ var colorRGBA = new RGBA(255,255,255,255); // White;
 
 ### 修改RGB：
   改为用一个整数类型数据来存放RGB信息。
-  RGB添加fromHex。
 
 ### 修改RGBA：
   改为用一个整数类型数据来存放RGBA信息。

@@ -1,5 +1,5 @@
 # react-color-class
-RGB RGBA HSV
+一系列颜色类型，能方便的对颜色进行处理、以及互相转换。目前RGB、RGBA、HSV。
 
 ## HSV
 HSV(HSB)颜色类。

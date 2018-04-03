@@ -81,6 +81,16 @@ export default class RGB {
     }
     return ret;
   }
+
+  static fromHex(str){
+    if(!(/^#[0-9a-fA-F]{6}$/).test(str)){
+      return null
+    }
+    var r = parseInt(str.substring(1,3), 16)
+    var g = parseInt(str.substring(3,5), 16)
+    var b = parseInt(str.substring(5,7), 16)
+    return new RGB(r,g,b);
+  }
 }
 RGB.White = new RGB(255,255,255)
 RGB.Black = new RGB(0,0,0)
